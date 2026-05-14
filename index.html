@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuário - Início</title>
+
+    <!-- =====================================================
+         TEMPLATE INICIAL - ATIVIDADE LOCALSTORAGE
+         Os estilos já estão prontos. Você precisa:
+         1. Adicionar os campos do formulário (PASSO 2)
+         2. Implementar o JavaScript (PASSOS 4 a 9)
+         ===================================================== -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ====================================================================
+         👇 SEU CÓDIGO HTML COMEÇA AQUI 👇
+         Siga o guia (../index.html) - PASSOS 1 e 2
+         ==================================================================== -->
+    <div class="container">
+        <h1>Cadastro de Usuário</h1>
+        <p class="subtitulo">Preencha os dados abaixo. Eles serão salvos no seu navegador.</p>
+
+        <form id="formCadastro">
+            <div class="campo">
+                <label for="nome">Nome Completo</label>
+                <input type="text" id="nome" required>
+            </div>
+
+            <div class="campo">
+                <label for="email">E-mail</label>
+                <input type="text" id="email" required>
+            </div>
+
+            <div class="campo">
+                <label for="idade">Idade</label>
+                <input type="number" id="idade" min="1" max="120" required>
+            </div>
+
+            <div class="campo">
+                <label for="curso">Curso</label>
+                <select id="curso">
+                    <option value="">--Selecione--</option>
+                    <option>Sistemas de Informação</option>
+                    <option>Engenharia de Software</option>
+                    <option>Ciência da Computação</option>
+                    <option>Análise e Desenvolvimento</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label for="bio">Biografia</label>
+                <textarea id="bio" rows="4" required></textarea>
+            </div>
+
+            <div class="botoes">
+                <button type="button" id="btnSalvar">Salvar</button>
+                <button type="button" id="btnLimpar" class="perigo">Limpar</button>
+            </div>
+        </form>
+
+        <div id="mensagem"></div>
+        <div id="dadosSalvos"></div>
+    </div>
+
+
+    <!-- ====================================================================
+         👆 FIM DO CÓDIGO HTML 👆
+         ==================================================================== -->
+
+
+    <!-- ====================================================================
+         👇 SEU CÓDIGO JAVASCRIPT VAI AQUI 👇
+         Siga o guia (../index.html) - PASSOS 4 a 9
+
+         Funções a implementar:
+           - salvar()             -> PASSO 4
+           - mostrarMensagem()    -> PASSO 5
+           - carregar()           -> PASSO 6
+           - exibirDadosSalvos()  -> PASSO 7
+           - limpar()             -> PASSO 8
+           - conectar botões      -> PASSO 9
+         ==================================================================== -->
+    <script>
+
+        // const CHAVE = "cadastroUsuario";
+
+
+    </script>
+
+</body>
+</html>
